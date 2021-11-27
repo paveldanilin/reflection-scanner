@@ -1,0 +1,21 @@
+{
+    "name": "pada/reflection-scanner",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel",
+            "email": "pavel.k.danilin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "symfony/finder": "^4.4|^5.0",
+        "doctrine/annotations": "1.13.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pada\\Reflection\\Scanner\\": "src/"
+        }
+    }
+}
