@@ -1,5 +1,5 @@
 # Reflection Scanner
-Scans a directory for class reflection info.
+Scans directories for class reflection info.
 
 Supports DocBlock annotations (Doctrine annotation).
 
